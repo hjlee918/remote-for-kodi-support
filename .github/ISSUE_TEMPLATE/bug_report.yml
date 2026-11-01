@@ -1,0 +1,47 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: computer
+    attributes:
+      label: Computer and operating system
+      placeholder: "Mac Studio, macOS 26.1  /  Windows 11 24H2"
+    validations:
+      required: true
+  - type: input
+    id: streamdeck
+    attributes:
+      label: Stream Deck app version and device
+      placeholder: "7.1, Stream Deck +"
+  - type: input
+    id: kodi
+    attributes:
+      label: Kodi device, system and Kodi version
+      description: Kodi's version is in Settings → System information. The system is for example CoreELEC, LibreELEC, Android (Nvidia Shield, Fire TV), Windows or macOS.
+      placeholder: "Ugoos AM6B Plus, CoreELEC 21.3, Kodi 21.3"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Plugin log
+      description: |
+        Attach or paste the latest file from:
+        macOS: ~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.kodiremote.sdPlugin/logs/
+        Windows: %APPDATA%\Elgato\StreamDeck\Plugins\com.johnlee.kodiremote.sdPlugin\logs\
+      render: text
