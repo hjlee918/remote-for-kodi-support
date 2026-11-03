@@ -1,6 +1,6 @@
 # Remote for Kodi
 
-Support page for **Remote for Kodi**, a Stream Deck plugin that controls Kodi on any device (CoreELEC, LibreELEC, Nvidia Shield, Fire TV, Android boxes and PCs): remote buttons, playback with the artwork of what's playing, volume, library sections, favourites and add-ons, power, and Stream Deck + dials. Get it on the [Elgato Marketplace](https://marketplace.elgato.com/).
+Support page for **Remote for Kodi**, a Stream Deck plugin that controls Kodi® on any device (CoreELEC, LibreELEC, Nvidia Shield, Fire TV, Android boxes and PCs): remote buttons, playback with the artwork of what's playing, volume, library sections, favourites and add-ons, power, and Stream Deck + dials. Get it on the [Elgato Marketplace](https://marketplace.elgato.com/).
 
 ## Get help
 
